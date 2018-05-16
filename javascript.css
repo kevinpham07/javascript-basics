@@ -16,20 +16,22 @@
 #sidebar{
 	background-color: #2A7D8C;
 	display: inline-block;
-	width: 175px;
+	width: 150px;
 	border-radius: 5px;
 	vertical-align: top;
-	padding: 0px 20px;
+	padding: 20px 30px;
+	margin: 0px;
 }
 #main_content{
 	background-color: #0E1822;
 	vertical-align: top;
 	display: inline-block;
-	width: 735px;
-	height: 300px;
+	width: 650px;
 	border-radius: 5px;
 	margin: 0px 5px;
 	vertical-align: top;
+	padding: 30px;
+	overflow: visible;
 }
 #advertisement{
 	background-color: #5D6573;
@@ -45,15 +47,32 @@
 #headerbox{
 	background-color: red;
 }
+.purple{
+	color: #7D8BE8;
+	text-decoration: none;
+}
 h1{
 	color: #C2D6EC;
 }
 h2{
 	color: #C2D6EC;
 }
-p{
+h5{
 	color: #C2D6EC;
 }
 a{
 	color: #6ADDE6;
+	font-size: 12px;
+}
+ul li{
+	color: white;
+	margin: 10px;
+}
+span{
+	color: #69DDDF;
+	text-decoration: underline;
+
+}
+p{
+	color: white;
 }
